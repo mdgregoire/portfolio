@@ -17,7 +17,7 @@ app.listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`);
 });
 
-// Route includes
+/* Route includes */
 const homeRouter = require('./routes/home.router');
 /* Routes */
 app.use('/home', homeRouter);
