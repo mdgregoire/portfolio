@@ -16,3 +16,8 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`);
 });
+
+// Route includes
+const homeRouter = require('./routes/home.router');
+/* Routes */
+app.use('/home', homeRouter);
