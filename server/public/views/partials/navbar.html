@@ -1,0 +1,34 @@
+<div md-whiteframe class="navbar">
+    <div layout="row" class="container nav">
+      <div style="padding-right: 5px;" flex="20" class="burgerMenu">
+        <md-menu>
+          <md-button class="menu" ng-click="vm.openMenu($mdMenu, $event)">
+            <i class="material-icons">menu</i>
+          </md-button>
+          <md-menu-content class="dropMenu" width="4">
+            <md-menu-item>
+              <md-button ng-href="#!home">home</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button ng-href="#!bio">bio</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button ng-href="#!contact">contactInfo</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button ng-href="#!resume">resume</md-button>
+            </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+      </div>
+      <div flex=20 class="nav-link">
+          <md-button class="navBtn" ng-href="https://github.com/mdgregoire/">GitHub</md-button>
+      </div>
+      <div flex=30 class="nav-link">
+          <md-button class="navBtn" ng-href="https://github.com/mdgregoire/">Solo Project</md-button>
+      </div>
+      <div flex=20 class="nav-link">
+          <md-button class="navBtn" ng-href="https://cogiv.herokuapp.com/#!/admin-feed">Group Project</md-button>
+      </div>
+    </div>
+</div>

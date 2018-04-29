@@ -3,5 +3,5 @@ myApp.controller('HomeController', ['HomeService', function(HomeService) {
   var self = this;
   self.homeService = HomeService;
   self.submitText = HomeService.submitText;
-
+  self.openMenu = HomeService.openMenu;
 }]);

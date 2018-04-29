@@ -13,6 +13,18 @@ myApp.config(['$routeProvider', function($routeProvider) {
       templateUrl: '/views/templates/home.html',
       controller: 'HomeController as vm',
     })
+    .when('/bio', {
+      templateUrl: '/views/templates/bio.html',
+      controller: 'HomeController as vm',
+    })
+    .when('/contact', {
+      templateUrl: '/views/templates/contact.html',
+      controller: 'HomeController as vm',
+    })
+    .when('/resume', {
+      templateUrl: '/views/templates/resume.html',
+      controller: 'HomeController as vm',
+    })
     .otherwise({
       template: '<h1>404</h1>'
     });

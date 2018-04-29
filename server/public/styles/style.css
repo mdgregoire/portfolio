@@ -1,0 +1,94 @@
+body {
+  background-color: white;
+}
+
+main {
+  margin-top: 60px;
+}
+
+html {
+  background-color: white;
+}
+
+.navbar {
+    width: 100%;
+    border-radius: 0px;
+    padding-left: 0px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    height: 60px;
+    padding-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #eee;
+}
+
+.nav-link {
+    margin-top: 6px;
+}
+
+.burgerMenu{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.md-button.menu {
+  margin-top: 2px;
+  color: #B7B7B7;
+  min-width: 1%;
+}
+
+.md-button.menu:not([disabled]):hover {
+  background-color: transparent;
+  color: #4689DF;
+}
+
+.md-button.navBtn {
+    color: #B7B7B7;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    margin-bottom: 20px;
+}
+
+.content {
+  text-align: center;
+  padding-left: 10px;
+}
+
+#homeBox {
+  padding-left: 33%;
+  text-align: left;
+}
+
+.nameTitle{
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+#bioBox {
+  text-align: left;
+}
